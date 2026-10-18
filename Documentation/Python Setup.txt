@@ -1,0 +1,12 @@
+To run and install Python libraries on the Jetson, you will need to use Python virtual environments.
+
+1. Create your project directory.
+2. Run [python -m venv "Python Virtual"] inside of your project directory or change "Python Virtual" to another path. This creates a folder with the required python data.
+3. Run [source "Python Virtual/bin/activate"]. This sets your path variables to be inside of the virtual environment.
+4. Packages/Libraries can now be installed using [pip install (Package Name)]. These are only availible when the same environment is active.
+5. Run your python script while in the virtual environment. It will use the libraries/packages from your virtual environment.
+6. To exit the virtual environment, run [deactivate].
+
+Your virtual environment will need to be reactivated in every new terminal window.
+
+Deleting a virtual environment is simple as deleting the "Python Virtual" folder you created in your project directory earlier.

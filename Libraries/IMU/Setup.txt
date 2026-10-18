@@ -1,0 +1,2 @@
+1. Setup python virtual enviornment.
+2. pip install adafruit-circuitpython-bno08x
